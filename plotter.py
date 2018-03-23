@@ -13,6 +13,6 @@ while i<10:
     sig.append(0)
     i=i+1
 
+# plot the generated signal
 plt.stem(sig)
 plt.show()
-print(sig)
